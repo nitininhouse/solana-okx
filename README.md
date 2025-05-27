@@ -76,6 +76,10 @@ To further boost liquidity and usability, our marketplace integrates DeFi protoc
 
 ---
 
+DEPLOYED ON DEVNET: 2n6YixtTujppTmx7MeZRh48WyQ3kxcpE7dvBv46m1hAHN3kYfydBCedBBRQcso6ZamicuBi981tAJ1shUBKt73dy (transaction ID)
+DEMO VIDEO: https://youtu.be/LnpEwBpYcoU?si=vmOt2BDCkbESeyam
+PITCH DECK: https://drive.google.com/file/d/11jXVbPLX3nHghIAq__xPmcobVJ8kjtM8/view?usp=sharing  
+
 <img width="836" alt="image" src="https://github.com/user-attachments/assets/560848b4-655d-43dc-8e19-42f0ca8cacf4" />
 
 <img width="836" alt="image" src="https://github.com/user-attachments/assets/035044ac-9997-4da5-bd3b-0def302f189f" />
