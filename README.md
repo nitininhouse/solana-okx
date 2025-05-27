@@ -1,122 +1,155 @@
-# **Decentralized Carbon Credit Marketplace**
+## **Decentralized Carbon Credit Marketplace**
 
-<img width="1176" alt="image" src="https://github.com/user-attachments/assets/7c0f40cf-77d5-49fc-aac5-a201effa93fa" />
+### **ZK-Proofs & Blockchain Infrastructure for Climate Action**
 
+<img width="844" alt="image" src="https://github.com/user-attachments/assets/d5d269c5-118b-4e9f-a0d3-d8b7c1f527b8" />
 
-DEMO VIDEO: https://vimeo.com/1087311095?share=copy
-
-PITCH DECK: https://drive.google.com/file/d/11jXVbPLX3nHghIAq__xPmcobVJ8kjtM8/view?usp=sharing  
-
-### **Executive Summary**
-
-Our platform provides a comprehensive solution to the growing need for transparent, secure, and efficient carbon credit trading. By leveraging blockchain technology, the Sui Move programming language, we’ve created a fully decentralized marketplace for carbon credit generation, validation, trading, and offsetting.
 
 ---
 
-### **The Climate Crisis Demands Immediate Action**
+## **Executive Summary**
 
-* **Global CO2 emissions** reached a record high of 36.8 billion tonnes in 2023 *(IEA Report, 2024)*
-* **IPCC** warns we have less than 7 years to drastically reduce emissions to limit warming to 1.5°C *(IPCC Sixth Assessment Report)*
-* **Carbon markets** are expected to grow to **\$100B+ by 2030**, yet remain hampered by **trust and transparency issues** *(McKinsey, 2023)*
+Our platform is a foundational leap in climate finance: a **fully decentralized carbon credit marketplace** built for **trust, privacy, and efficiency**. It enables the **generation, validation, trading, and offsetting** of carbon credits using **blockchain**, **zero-knowledge proofs**, and **automated smart contracts**. Unlike traditional systems reliant on opaque intermediaries and manual verification, our solution delivers a **transparent, verifiable, and privacy-preserving** ecosystem for scaling global carbon markets with integrity.
 
 ---
 
-### **Current Carbon Market Failures**
+## **The Climate Crisis Requires Urgent Innovation**
 
-* **Credibility Crisis**: Up to 90% of rainforest carbon offsets from major certifiers are ineffective *(The Guardian, Jan 2023)*
-* **Transparency Problems**: Credit quality varies with limited third-party verification *(Berkeley Carbon Trading Project, 2023)*
-* **Market Fragmentation**: Siloed systems prevent liquidity and efficient price discovery
-* **Privacy Concerns**: Companies hesitate to share emissions data due to competitive risks
-
----
-
-### **Our Vision**
-
-To revolutionize how environmental impact is measured, validated, and traded globally by creating the definitive infrastructure for carbon markets that:
-
-* Removes intermediaries
-* Eliminates greenwashing
-* Accelerates climate action
-* Makes environmental finance trustworthy and accessible
-
-By 2030, we aim to facilitate the transfer of **\$50B+** in climate finance through our platform.
+* Global CO₂ emissions reached an all-time high of 36.8 billion tonnes in 2023 (IEA Report, 2024)
+* The IPCC warns we have less than 7 years to reduce emissions significantly to limit global warming to 1.5°C (IPCC Sixth Assessment Report)
+* Carbon markets are projected to surpass \$100 billion by 2030, yet trust, transparency, and efficiency are still severely lacking (McKinsey, 2023)
 
 ---
 
-### **Core System Architecture**
+## **Problems in Current Carbon Markets**
 
-* **Green Organizations**: Submit carbon reduction claims with geospatial validation
-
----
-
-### **Technical Stack**
-
-* **Smart Contracts**: Written in **Sui Move**
-* **Blockchain**: Deployed on **Sui Testnet**
-* **Contract Deployment**:
-
-  * `ORGANIZATION_HANDLER_ID`: `0x3e93f9c3174505789f34825c4833e59adeb9b3f68adb8bfd53ecdcf0b61b75db`
-  * `CLAIM_HANDLER_ID`: `0x9dfc31fa670a2722a806be47eef3fd02b98db35d8c6910a2ef9a2868793a6225`
-  * `LEND_REQUEST_HANDLER_ID`: `0x74b52a993916d235e68de2033b67529c9f0ea8c73fc5341ccaa24b37afd95b96`
-  * `PACKAGE_ID`: `0x0514cb5817179ac60a31c8b552c252928745a35048e189e0a857ea2a8487000a`
-  * `CLOCK_OBJECT_ID`: `0x6`
-* **Frontend**: [https://sui-hack.vercel.app/](https://sui-hack.vercel.app/)
-* **Storage**: IPFS integration for immutable claim evidence
-* **AI Integration**: IAgent framework with domain-specific agent types
+* **Credibility Breakdown**: Up to 90% of rainforest carbon offsets from major certifiers are essentially worthless (The Guardian, Jan 2023)
+* **Transparency Gaps**: Huge variance in carbon credit quality and limited mechanisms for real-time verification (Berkeley Carbon Trading Project, 2023)
+* **Market Fragmentation**: Siloed registries prevent interoperability, liquidity, and standardized pricing
+* **Privacy Concerns**: Organizations often hesitate to disclose emissions data due to competitive or reputational risks
 
 ---
 
-### **DeFi Integration: Carbon Finance Layer**
+## **Our Vision**
 
-Our platform introduces advanced decentralized financial mechanisms to enhance liquidity and usability:
+We aim to redefine how climate impact is quantified, verified, and transacted—by building the **core infrastructure** for the future of environmental finance. Our platform is designed to:
 
-* **Carbon Credit Borrowing**: Based on future reduction commitments
-* **Lending Pools**: Carbon-rich entities can lend excess credits
-* **Tokenized Carbon Assets**: Enable fractional ownership of high-impact carbon projects
-* **Reputation-Based Credit Scoring**: Evaluates eligibility using agent-verified credentials
-* **Automated Repayment**: Terms enforced through Sui smart contracts
-* **Cross-Chain Liquidity**: Planned integrations with broader DeFi ecosystems
-
----
-
-### **Regulatory Landscape & Urgency**
-
-* **EU Carbon Border Adjustment Mechanism** (2023–2026)
-* **SEC Climate Disclosure Rules** (starting 2024)
-* Over **1,500 companies**, representing **\$11.4 trillion** in revenue, have committed to net-zero targets *(UN Climate Change, 2023)*
+* Eliminate the need for centralized intermediaries
+* Prevent greenwashing through cryptographic verification
+* Accelerate climate action via programmable automation
+* Make carbon trading both **trustworthy** and **accessible** to all
+* Facilitate over **\$50 billion** in carbon finance transactions by 2030
 
 ---
 
-### **Market Opportunity**
+## **Core System Architecture**
 
-* **Voluntary market** projected to grow **15x** to **\$50B+ by 2030** *(TSVCM, 2023)*
-* **Compliance markets** expected to exceed **\$250B** by 2030
-* **91%** of companies plan to increase spending on carbon credits *(S\&P Global, 2023)*
-* **\$1T+** estimated corporate climate investments by 2030
-
----
-
-### **Competitive Advantage**
-
-| Feature             | Current Carbon Platforms       | Our Solution                           |
-| ------------------- | ------------------------------ | -------------------------------------- |
-| **Verification**    | Centralized auditors           | Decentralized, immutable on-chain      |
-| **Privacy**         | Sensitive data exposed         | Data stored on IPFS, AI-enforced rules |
-| **User Experience** | Complex, opaque interfaces     | AI-guided with IAgents                 |
-| **Integration**     | Siloed systems                 | Cross-compatible and modular           |
-| **Financial Tools** | Limited or traditional finance | Full DeFi toolkit on Sui               |
+* **Green Organizations**: Submit carbon claims with geospatial and project metadata
+* **Smart Contract Infrastructure**: Modular contracts handle submissions, evidence validation, credit minting, and trading
+* **ZK-Proof Layer**: Privacy-preserving circuits validate eligibility and project data without exposing sensitive inputs
 
 ---
 
-### **Team**
+## **Technical Stack**
 
-* **Leadership**: Experts from climate finance, blockchain, and AI
-* **Technical**: Developers with experience in smart contracts, Sui Move, and AI agents
-* **Advisors**: Climate scientists, regulatory specialists, carbon market economists
-* **Partners**: Collaborating with environmental NGOs and enterprise sustainability programs
+* **Smart Contracts**: Written in Rust using the Anchor framework
+* **Blockchain Layer**: Deployed on Solana Devnet for scalability and low fees
+* **Frontend**: Built using Vite + React for rapid user interaction
+* **Storage**: IPFS for decentralized and tamper-proof evidence storage
+* **Zero-Knowledge Proofs**: Custom zk-SNARKs using R1CS constraints; sample circuits and proofs provided in the `generated_proofs` directory
 
-**Contact**: [aaryanjain888@gmail.com](mailto:aaryanjain888@gmail.com)
+---
 
-**The climate crisis won't wait. Neither should we.**
+<img width="804" alt="image" src="https://github.com/user-attachments/assets/9ab5339b-1ce8-4bef-855a-70767b588712" />
+
+
+## **DeFi Integration: Carbon Finance Layer**
+
+To further boost liquidity and usability, our marketplace integrates DeFi protocols tailored for carbon credits:
+
+* **Carbon Credit Borrowing**: Organizations can borrow against verified future offset commitments
+* **Lending Pools**: Entities with surplus credits can lend them at fair market rates
+* **Tokenized Carbon Assets**: Projects are fractionalized into tokens, allowing broader participation
+* **Reputation-Based Credit Scoring**: ZK-powered scoring system to determine creditworthiness without revealing data
+* **Automated Repayments**: Smart contracts enforce repayment conditions tied to emissions performance
+* **Cross-Chain Liquidity (Planned)**: Integration with other DeFi ecosystems to enable inter-blockchain flow of carbon assets
+
+---
+
+<img width="836" alt="image" src="https://github.com/user-attachments/assets/560848b4-655d-43dc-8e19-42f0ca8cacf4" />
+
+<img width="836" alt="image" src="https://github.com/user-attachments/assets/035044ac-9997-4da5-bd3b-0def302f189f" />
+
+<img width="837" alt="image" src="https://github.com/user-attachments/assets/c3099bc5-4ffd-40a7-8e20-2d20b31aadd2" />
+
+<img width="838" alt="image" src="https://github.com/user-attachments/assets/226756cc-a9b9-455b-bb81-c109e9b08949" />
+
+<img width="835" alt="image" src="https://github.com/user-attachments/assets/350d61f8-0270-4a6e-8b4c-22579d29b244" />
+
+<img width="836" alt="image" src="https://github.com/user-attachments/assets/3a084900-dafc-45ac-b2c2-fb4d7998e98a" />
+
+## **Zero-Knowledge Proof System**
+
+Our ZK system ensures that carbon credit validation is both private and compliant:
+
+* **Private Inputs**: Emissions data, debt ratios, credit histories, and token balances
+* **Circuit Architecture**: Converts inputs into field elements and constraints using R1CS
+* **Proof Generation**: Generates zk-SNARKs preserving zero-knowledge guarantees
+* **On-Chain Verifier**: Verifies compliance without revealing any underlying sensitive data
+* **Sample Proofs**: Available in the `generated_proofs` directory for testing and demonstration
+
+---
+
+## **Regulatory Landscape**
+
+Our platform aligns with the shifting global regulatory climate:
+
+* **EU Carbon Border Adjustment Mechanism (CBAM)**: Enforcing cross-border emissions tariffs (2023–2026 rollout)
+* **SEC Climate Disclosure Rules**: Public companies mandated to report climate risks (effective 2024)
+* **Corporate Net-Zero Commitments**: Over 1,500 companies with a combined \$11.4 trillion in revenue have pledged net-zero goals (UN Climate Change, 2023)
+
+---
+
+## **Market Opportunity**
+
+* **Voluntary carbon market** is expected to grow 15x to over \$50 billion by 2030 (TSVCM, 2023)
+* **Compliance carbon markets** could exceed \$250 billion by the same year
+* **91% of companies** plan to increase spending on carbon offsets (S\&P Global, 2023)
+* **Over \$1 trillion** in corporate climate investment projected by 2030
+
+---
+
+## **Competitive Edge**
+
+* **Decentralized Verification**: Proof-based validation eliminates reliance on central auditors
+* **Privacy by Design**: ZK-proofs ensure compliance without compromising sensitive emissions or financial data
+* **Interoperability**: Designed to integrate with both voluntary and compliance market systems
+* **Trustless Architecture**: Validation and transactions occur on-chain, backed by cryptographic guarantees
+* **Full DeFi Suite**: Enables real-time lending, borrowing, automated settlements, and cross-chain liquidity for carbon assets
+
+---
+
+## **Team**
+
+* **Founders**: Experts in blockchain infrastructure and climate finance with prior experience building scalable decentralized applications
+* **Developers**: Skilled in smart contracts, Rust, ZK systems, and decentralized storage
+* **Advisors**: Environmental economists, legal experts on carbon markets, and sustainability consultants
+* **Partners**: Ongoing collaborations with climate-focused NGOs, university researchers, and sustainability-forward enterprises
+
+---
+
+## **Contact**
+
+* Aaryan Jain: [aaryanjain888@gmail.com](mailto:aaryanjain888@gmail.com)
+* Nitin Goyal: [nitin\_g@me.iitr.ac.in](mailto:nitin_g@me.iitr.ac.in)
+
+---
+
+## **Closing Statement**
+
+The climate crisis cannot be solved with the systems that created it.
+**We are building new rails for global climate finance—transparent, decentralized, and future-proof.**
+Let’s bring real trust to the carbon economy.
+
 
 
